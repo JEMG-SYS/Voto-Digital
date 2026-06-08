@@ -1,4 +1,3 @@
-// service/VotacionController.java
 package service;
 
 import model.Candidato;
