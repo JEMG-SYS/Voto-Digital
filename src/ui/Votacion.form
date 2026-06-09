@@ -29,66 +29,63 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="Foto3" pref="115" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="Foto" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" pref="620" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Foto" max="32767" attributes="0"/>
-                          <Component id="Foto1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Foto2" alignment="0" pref="115" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="Foto1" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" pref="620" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Foto2" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" pref="620" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Foto3" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace min="25" pref="25" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" pref="620" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnGuardar" min="-2" pref="114" max="-2" attributes="0"/>
-              <EmptySpace pref="10" max="32767" attributes="0"/>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Foto" min="-2" pref="90" max="-2" attributes="0"/>
-                          <Component id="jPanel1" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnGuardar" min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="Foto" min="-2" pref="87" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Foto1" min="-2" pref="87" max="-2" attributes="0"/>
                   <Component id="jPanel2" max="32767" attributes="0"/>
-                  <Component id="Foto1" min="-2" pref="90" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="Foto2" min="-2" pref="90" max="-2" attributes="0"/>
+                  <Component id="Foto2" min="-2" pref="87" max="-2" attributes="0"/>
                   <Component id="jPanel3" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="Foto3" min="-2" pref="90" max="-2" attributes="0"/>
+                  <Component id="Foto3" min="-2" pref="87" max="-2" attributes="0"/>
                   <Component id="jPanel4" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -169,35 +166,8 @@
         </Property>
       </Properties>
 
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="lblNombreCompleto" min="-2" pref="499" max="-2" attributes="0"/>
-                  <EmptySpace pref="32" max="32767" attributes="0"/>
-                  <Component id="EditarN" min="-2" pref="55" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                          <Component id="lblNombreCompleto" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="EditarN" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lblNombreCompleto">
@@ -210,21 +180,48 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Nombres y Apellidos"/>
           </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="29" y="16" width="499" height="-1"/>
+            </Constraint>
+          </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="EditarN">
+        <Component class="javax.swing.JButton" name="btnVotar1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;font size=&quot;5&quot;&gt;&#x270f;&#xfe0f;&lt;/font&gt; &lt;/html&gt;"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="da" green="50" red="6d" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="11" red="3" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Votar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                </BevelBorder>
+              </Border>
             </Property>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Cursor de Mano"/>
             </Property>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditarNActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVotar1ActionPerformed"/>
           </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="10" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
         </Component>
       </SubComponents>
     </Container>
@@ -235,30 +232,8 @@
         </Property>
       </Properties>
 
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="lblNombreCompleto1" min="-2" pref="499" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="EditarN1" min="-2" pref="55" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblNombreCompleto1" min="-2" pref="38" max="-2" attributes="0"/>
-                      <Component id="EditarN1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lblNombreCompleto1">
@@ -271,21 +246,48 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Nombres y Apellidos"/>
           </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="21" y="6" width="370" height="38"/>
+            </Constraint>
+          </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="EditarN1">
+        <Component class="javax.swing.JButton" name="btnVotar2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;font size=&quot;5&quot;&gt;&#x270f;&#xfe0f;&lt;/font&gt; &lt;/html&gt;"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="da" green="50" red="6d" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="11" red="3" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Votar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                </BevelBorder>
+              </Border>
             </Property>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Cursor de Mano"/>
             </Property>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditarN1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVotar2ActionPerformed"/>
           </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="30" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
         </Component>
       </SubComponents>
     </Container>
@@ -296,30 +298,8 @@
         </Property>
       </Properties>
 
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="lblNombreCompleto2" min="-2" pref="499" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="EditarN2" min="-2" pref="55" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblNombreCompleto2" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
-                      <Component id="EditarN2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lblNombreCompleto2">
@@ -332,21 +312,48 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Nombres y Apellidos"/>
           </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="21" y="6" width="380" height="38"/>
+            </Constraint>
+          </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="EditarN2">
+        <Component class="javax.swing.JButton" name="btnVotar3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;font size=&quot;5&quot;&gt;&#x270f;&#xfe0f;&lt;/font&gt; &lt;/html&gt;"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="da" green="50" red="6d" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="11" red="3" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Votar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                </BevelBorder>
+              </Border>
             </Property>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Cursor de Mano"/>
             </Property>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditarN2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVotar3ActionPerformed"/>
           </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="20" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
         </Component>
       </SubComponents>
     </Container>
@@ -357,30 +364,8 @@
         </Property>
       </Properties>
 
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="lblNombreCompleto3" min="-2" pref="499" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="EditarN3" min="-2" pref="55" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblNombreCompleto3" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
-                      <Component id="EditarN3" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lblNombreCompleto3">
@@ -393,55 +378,50 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Nombres y Apellidos"/>
           </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="21" y="6" width="499" height="38"/>
+            </Constraint>
+          </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="EditarN3">
+        <Component class="javax.swing.JButton" name="btnVotar4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;font size=&quot;5&quot;&gt;&#x270f;&#xfe0f;&lt;/font&gt; &lt;/html&gt;"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="da" green="50" red="6d" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="29" green="11" red="3" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Votar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="null"/>
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
+                </BevelBorder>
+              </Border>
             </Property>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Cursor de Mano"/>
             </Property>
+            <Property name="opaque" type="boolean" value="true"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditarN3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVotar4ActionPerformed"/>
           </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="500" y="30" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnGuardar">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="da" green="50" red="6d" type="rgb"/>
-        </Property>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="12" style="1"/>
-        </Property>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="29" green="11" red="3" type="rgb"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Guardar Cambios"/>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
-            <BevelBorder>
-              <Color PropertyName="highlightOuter" blue="cc" green="cc" red="cc" type="rgb"/>
-              <Color PropertyName="highlightInner" blue="cc" green="cc" red="cc" type="rgb"/>
-              <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
-              <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
-            </BevelBorder>
-          </Border>
-        </Property>
-        <Property name="contentAreaFilled" type="boolean" value="false"/>
-        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-          <Color id="Cursor de Mano"/>
-        </Property>
-        <Property name="opaque" type="boolean" value="true"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
-      </Events>
-    </Component>
   </SubComponents>
 </Form>

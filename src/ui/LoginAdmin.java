@@ -4,6 +4,8 @@
  */
 package ui;
 
+import service.ValidationException;
+import service.VotacionController;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
@@ -64,7 +66,7 @@ public class LoginAdmin extends javax.swing.JFrame {
 
         btnLogin.setBackground(new java.awt.Color(109, 80, 218));
         btnLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnLogin.setForeground(new java.awt.Color(34, 32, 86));
+        btnLogin.setForeground(new java.awt.Color(3, 17, 41));
         btnLogin.setText("LOGIN");
         btnLogin.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
         btnLogin.setContentAreaFilled(false);
@@ -74,7 +76,7 @@ public class LoginAdmin extends javax.swing.JFrame {
 
         btnSalir.setBackground(new java.awt.Color(109, 80, 218));
         btnSalir.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnSalir.setForeground(new java.awt.Color(34, 32, 86));
+        btnSalir.setForeground(new java.awt.Color(3, 17, 41));
         btnSalir.setText("SALIR");
         btnSalir.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
         btnSalir.setContentAreaFilled(false);
@@ -149,30 +151,8 @@ public class LoginAdmin extends javax.swing.JFrame {
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         // TODO add your handling code here:
- String usuario = JlabelU.getText();
-    String password = new String(jPasswordField.getPassword());
-    
-    if(usuario.isEmpty() || password.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Complete todos los campos");
-        return;
-    }
-    
-    if(usuario.equals("admin") && password.equals("admin123")) {
-        dispose();  // Cierra el login
-        JOptionPane.showMessageDialog(this, "Bienvenido Administrador");
         
-        // Abrir ventana de Administración
-        Administracion admin = new Administracion();
-        admin.setLocationRelativeTo(null);
-        admin.setVisible(true);
-        
-    } else {
-        JOptionPane.showMessageDialog(this, "Usuario o contraseña incorrectos");
-        // Limpiar campos
-        JlabelU.setText("");
-        jPasswordField.setText("");
-        JlabelU.requestFocus();
-    }
+      
         
     }//GEN-LAST:event_btnLoginActionPerformed
 

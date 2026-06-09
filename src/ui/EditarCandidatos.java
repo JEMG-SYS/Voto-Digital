@@ -106,7 +106,7 @@ public class EditarCandidatos extends javax.swing.JDialog {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         lblNombreCompleto.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        lblNombreCompleto.setForeground(new java.awt.Color(34, 32, 86));
+        lblNombreCompleto.setForeground(new java.awt.Color(3, 17, 41));
         lblNombreCompleto.setText("Nombres y Apellidos");
 
         EditarN.setText("<html> <font size=\"5\">✏️</font> </html>");
@@ -142,7 +142,7 @@ public class EditarCandidatos extends javax.swing.JDialog {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         lblNombreCompleto1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        lblNombreCompleto1.setForeground(new java.awt.Color(34, 32, 86));
+        lblNombreCompleto1.setForeground(new java.awt.Color(3, 17, 41));
         lblNombreCompleto1.setText("Nombres y Apellidos");
 
         EditarN1.setText("<html> <font size=\"5\">✏️</font> </html>");
@@ -175,7 +175,7 @@ public class EditarCandidatos extends javax.swing.JDialog {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
         lblNombreCompleto2.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        lblNombreCompleto2.setForeground(new java.awt.Color(34, 32, 86));
+        lblNombreCompleto2.setForeground(new java.awt.Color(3, 17, 41));
         lblNombreCompleto2.setText("Nombres y Apellidos");
 
         EditarN2.setText("<html> <font size=\"5\">✏️</font> </html>");
@@ -208,7 +208,7 @@ public class EditarCandidatos extends javax.swing.JDialog {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         lblNombreCompleto3.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
-        lblNombreCompleto3.setForeground(new java.awt.Color(34, 32, 86));
+        lblNombreCompleto3.setForeground(new java.awt.Color(3, 17, 41));
         lblNombreCompleto3.setText("Nombres y Apellidos");
 
         EditarN3.setText("<html> <font size=\"5\">✏️</font> </html>");
@@ -240,7 +240,7 @@ public class EditarCandidatos extends javax.swing.JDialog {
 
         btnGuardar.setBackground(new java.awt.Color(109, 80, 218));
         btnGuardar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnGuardar.setForeground(new java.awt.Color(34, 32, 86));
+        btnGuardar.setForeground(new java.awt.Color(3, 17, 41));
         btnGuardar.setText("Guardar Cambios");
         btnGuardar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
         btnGuardar.setContentAreaFilled(false);

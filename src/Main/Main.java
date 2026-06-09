@@ -4,10 +4,10 @@
  */
 package Main;
 
-/**
- *
- * @author JEMG
- */
+import ui.LoginAdmin;
+
 public class Main {
-    
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> new LoginAdmin().setVisible(true));
+    }
 }

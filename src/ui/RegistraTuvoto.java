@@ -4,6 +4,12 @@
  */
 package ui;
 
+import java.awt.Color;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+import javax.swing.JFileChooser;
+import javax.swing.JTextField;
+
 /**
  *
  * @author JEMG
@@ -17,7 +23,46 @@ public class RegistraTuvoto extends javax.swing.JFrame {
      */
     public RegistraTuvoto() {
         initComponents();
+        setIconImage(new ImageIcon("recursos/logo_peque.png").getImage());
+        setExtendedState(javax.swing.JFrame.MAXIMIZED_BOTH);
+        ponerPlaceholder(txtNombre, "Ej: Juan Esteban Martínez");
+        ponerPlaceholder(txtID, "Ej: 1234567890 ");
+        ponerPlaceholder(txtCorreo, "Ej: juanestebanmartinez@email.com ");
+        ponerPlaceholder(txtFechaNacimiento, "dd / mm / aaaa ");
+        ponerPlaceholder(txtDireccion, "Ej:  Calle/Manzana/Carrera 56 #16");
+        ponerPlaceholder(txtTelefono, "Ej: 3182182828");
     }
+    
+    
+    // EJEMPLOS PARA LOS CAMPOS (METODO)
+    private void ponerPlaceholder(JTextField campo, String textoPlaceholder) {
+    campo.setText(textoPlaceholder);
+    campo.setForeground(Color.GRAY);
+    
+    campo.addFocusListener(new java.awt.event.FocusAdapter() {
+        @Override
+        public void focusGained(java.awt.event.FocusEvent evt) {
+            if (campo.getText().equals(textoPlaceholder)) {
+                campo.setText("");
+                campo.setForeground(Color.BLACK);
+            }
+        }
+        @Override
+        public void focusLost(java.awt.event.FocusEvent evt) {
+            if (campo.getText().isEmpty()) {
+                campo.setText(textoPlaceholder);
+                campo.setForeground(Color.GRAY);
+            }
+        }
+    });
+}
+    
+    
+    
+    
+    
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -28,21 +73,248 @@ public class RegistraTuvoto extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jPanel1 = new javax.swing.JPanel();
+        Logo = new javax.swing.JLabel();
+        Usuario = new javax.swing.JLabel();
+        Usuario1 = new javax.swing.JLabel();
+        Usuario2 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        Usuario3 = new javax.swing.JLabel();
+        Usuario4 = new javax.swing.JLabel();
+        Usuario5 = new javax.swing.JLabel();
+        Usuario6 = new javax.swing.JLabel();
+        txtNombre = new javax.swing.JTextField();
+        Usuario7 = new javax.swing.JLabel();
+        Usuario8 = new javax.swing.JLabel();
+        txtCorreo = new javax.swing.JTextField();
+        txtID = new javax.swing.JTextField();
+        txtFechaNacimiento = new javax.swing.JTextField();
+        Usuario9 = new javax.swing.JLabel();
+        txtDireccion = new javax.swing.JTextField();
+        Usuario10 = new javax.swing.JLabel();
+        txtTelefono = new javax.swing.JTextField();
+        Usuario11 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        btnRegistrarV = new javax.swing.JButton();
+        Adminback = new javax.swing.JButton();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setBackground(new java.awt.Color(3, 17, 41));
+
+        Logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\Logo.png")); // NOI18N
+
+        Usuario.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        Usuario.setForeground(new java.awt.Color(241, 243, 246));
+        Usuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        Usuario.setText("<html><body style=\"width: 135px; text-align: leftr;\">Regístrate para participar en el proceso de votación de manera segura y confiable.</body></html>");
+
+        Usuario1.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario1.setFont(new java.awt.Font("Segoe UI", 1, 22)); // NOI18N
+        Usuario1.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario1.setText("Votación");
+
+        Usuario2.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario2.setFont(new java.awt.Font("Segoe UI", 1, 22)); // NOI18N
+        Usuario2.setForeground(new java.awt.Color(241, 243, 246));
+        Usuario2.setText("Sistema de");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(43, Short.MAX_VALUE)
+                .addComponent(Usuario1, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(80, 80, 80))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(24, 24, 24)
+                    .addComponent(Usuario2, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(72, Short.MAX_VALUE)))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Logo, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(116, 116, 116)
+                .addComponent(Usuario1)
+                .addGap(18, 18, 18)
+                .addComponent(Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(646, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(202, 202, 202)
+                    .addComponent(Usuario2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(847, Short.MAX_VALUE)))
         );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 1074));
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder(null, new java.awt.Color(153, 153, 153)));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Usuario3.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        Usuario3.setForeground(new java.awt.Color(3, 17, 41));
+        Usuario3.setText("Completa tus datos para registrarte en el sistema");
+        jPanel2.add(Usuario3, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 93, 430, 37));
+
+        Usuario4.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario4.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        Usuario4.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario4.setText("Registro de Votante");
+        jPanel2.add(Usuario4, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 39, 346, -1));
+
+        Usuario5.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario5.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario5.setText("Nombre completo");
+        jPanel2.add(Usuario5, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 157, 134, -1));
+
+        Usuario6.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario6.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario6.setText("Número de identificación");
+        jPanel2.add(Usuario6, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 157, -1, -1));
+
+        txtNombre.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtNombre.addActionListener(this::txtNombreActionPerformed);
+        jPanel2.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 183, 221, 34));
+
+        Usuario7.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario7.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario7.setText("Fecha de nacimiento");
+        jPanel2.add(Usuario7, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 294, -1, -1));
+
+        Usuario8.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario8.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario8.setText("Correo electrónico");
+        jPanel2.add(Usuario8, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 294, 134, -1));
+
+        txtCorreo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtCorreo.addActionListener(this::txtCorreoActionPerformed);
+        jPanel2.add(txtCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 320, 221, 34));
+
+        txtID.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtID.addActionListener(this::txtIDActionPerformed);
+        jPanel2.add(txtID, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 183, 221, 34));
+
+        txtFechaNacimiento.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtFechaNacimiento.addActionListener(this::txtFechaNacimientoActionPerformed);
+        jPanel2.add(txtFechaNacimiento, new org.netbeans.lib.awtextra.AbsoluteConstraints(559, 320, 221, 34));
+
+        Usuario9.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario9.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario9.setText("Dirección");
+        jPanel2.add(Usuario9, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 414, 134, -1));
+
+        txtDireccion.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtDireccion.setToolTipText("xd");
+        txtDireccion.addActionListener(this::txtDireccionActionPerformed);
+        jPanel2.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 440, 526, 34));
+
+        Usuario10.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario10.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario10.setText("Teléfono");
+        jPanel2.add(Usuario10, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 537, 134, -1));
+
+        txtTelefono.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        txtTelefono.setToolTipText("");
+        txtTelefono.addActionListener(this::txtTelefonoActionPerformed);
+        jPanel2.add(txtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(254, 563, 221, 34));
+
+        Usuario11.setBackground(new java.awt.Color(241, 243, 246));
+        Usuario11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        Usuario11.setForeground(new java.awt.Color(109, 80, 218));
+        Usuario11.setText("Genero");
+        jPanel2.add(Usuario11, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 537, 134, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona una opción", "Masculino", "Femenino" }));
+        jPanel2.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 563, 229, 34));
+
+        btnRegistrarV.setBackground(new java.awt.Color(109, 80, 218));
+        btnRegistrarV.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnRegistrarV.setForeground(new java.awt.Color(3, 17, 41));
+        btnRegistrarV.setText("Regristar Voto");
+        btnRegistrarV.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
+        btnRegistrarV.setContentAreaFilled(false);
+        btnRegistrarV.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnRegistrarV.setOpaque(true);
+        btnRegistrarV.addActionListener(this::btnRegistrarVActionPerformed);
+        jPanel2.add(btnRegistrarV, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 680, 530, 40));
+        btnRegistrarV.getAccessibleContext().setAccessibleName("");
+
+        Adminback.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\ESCUDOO (1).png")); // NOI18N
+        Adminback.setContentAreaFilled(false);
+        Adminback.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        Adminback.setPreferredSize(new java.awt.Dimension(100, 100));
+        Adminback.addActionListener(this::AdminbackActionPerformed);
+        jPanel2.add(Adminback, new org.netbeans.lib.awtextra.AbsoluteConstraints(1200, 10, 70, 80));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, 1300, 780));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNombreActionPerformed
+
+    private void txtCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCorreoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCorreoActionPerformed
+
+    private void txtIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIDActionPerformed
+
+    private void txtFechaNacimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtFechaNacimientoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtFechaNacimientoActionPerformed
+
+    private void txtDireccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDireccionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDireccionActionPerformed
+
+    private void txtTelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTelefonoActionPerformed
+
+    private void btnRegistrarVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarVActionPerformed
+        // TODO add your handling code here:
+        
+           Votacion dialog = new Votacion(this, true);
+        dialog.setLocationRelativeTo(this);
+    dialog.setVisible(true);
+
+    }//GEN-LAST:event_btnRegistrarVActionPerformed
+
+    private void AdminbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AdminbackActionPerformed
+        // TODO add your handling code here:
+ 
+            // Escalar al tamaño fijo de 100x100
+           PinAdmin dialog = new PinAdmin(this, true);
+            dialog.setLocationRelativeTo(this);
+            dialog.setVisible(true);
+        
+
+    }//GEN-LAST:event_AdminbackActionPerformed
 
     /**
      * @param args the command line arguments
@@ -70,5 +342,29 @@ public class RegistraTuvoto extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Adminback;
+    private javax.swing.JLabel Logo;
+    private javax.swing.JLabel Usuario;
+    private javax.swing.JLabel Usuario1;
+    private javax.swing.JLabel Usuario10;
+    private javax.swing.JLabel Usuario11;
+    private javax.swing.JLabel Usuario2;
+    private javax.swing.JLabel Usuario3;
+    private javax.swing.JLabel Usuario4;
+    private javax.swing.JLabel Usuario5;
+    private javax.swing.JLabel Usuario6;
+    private javax.swing.JLabel Usuario7;
+    private javax.swing.JLabel Usuario8;
+    private javax.swing.JLabel Usuario9;
+    private javax.swing.JButton btnRegistrarV;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JTextField txtCorreo;
+    private javax.swing.JTextField txtDireccion;
+    private javax.swing.JTextField txtFechaNacimiento;
+    private javax.swing.JTextField txtID;
+    private javax.swing.JTextField txtNombre;
+    private javax.swing.JTextField txtTelefono;
     // End of variables declaration//GEN-END:variables
 }

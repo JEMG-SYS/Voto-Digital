@@ -1,4 +1,4 @@
-package main.java.model;
+package model;
 
 /**
  * Candidato que se presenta a la elección.

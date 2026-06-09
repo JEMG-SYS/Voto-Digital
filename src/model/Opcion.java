@@ -1,4 +1,4 @@
-package main.java.model;
+package model;
 
 /**
  * Contrato para cualquier elemento votable.

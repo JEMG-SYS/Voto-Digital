@@ -58,6 +58,14 @@ public class Administracion extends javax.swing.JFrame {
         VotosN = new javax.swing.JLabel();
         TotalV3 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
+        Escudo3 = new javax.swing.JLabel();
+        Escudo5 = new javax.swing.JLabel();
+        Escudo6 = new javax.swing.JLabel();
+        Escudo7 = new javax.swing.JLabel();
+        VotosC = new javax.swing.JLabel();
+        VotosC1 = new javax.swing.JLabel();
+        VotosC2 = new javax.swing.JLabel();
+        VotosC3 = new javax.swing.JLabel();
 
         jLabel1.setText("jLabel1");
 
@@ -71,7 +79,7 @@ public class Administracion extends javax.swing.JFrame {
 
         btnSalirA.setBackground(new java.awt.Color(109, 80, 218));
         btnSalirA.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnSalirA.setForeground(new java.awt.Color(34, 32, 86));
+        btnSalirA.setForeground(new java.awt.Color(3, 17, 41));
         btnSalirA.setText("SALIR");
         btnSalirA.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
         btnSalirA.setContentAreaFilled(false);
@@ -115,7 +123,7 @@ public class Administracion extends javax.swing.JFrame {
 
         btnIniciarV.setBackground(new java.awt.Color(109, 80, 218));
         btnIniciarV.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnIniciarV.setForeground(new java.awt.Color(34, 32, 86));
+        btnIniciarV.setForeground(new java.awt.Color(3, 17, 41));
         btnIniciarV.setText("INICIAR \nVOTACIONES");
         btnIniciarV.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204), new java.awt.Color(204, 204, 204)));
         btnIniciarV.setContentAreaFilled(false);
@@ -294,23 +302,88 @@ public class Administracion extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(34, 32, 86));
-        jLabel5.setText("Proceso de votación");
+        jLabel5.setText("Resultados de votacion");
+
+        Escudo3.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\editarcandidato (1).png")); // NOI18N
+        Escudo3.setPreferredSize(new java.awt.Dimension(50, 50));
+
+        Escudo5.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\editarcandidato (1).png")); // NOI18N
+        Escudo5.setPreferredSize(new java.awt.Dimension(50, 50));
+
+        Escudo6.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\editarcandidato (1).png")); // NOI18N
+        Escudo6.setPreferredSize(new java.awt.Dimension(50, 50));
+
+        Escudo7.setIcon(new javax.swing.ImageIcon("C:\\Users\\JEMG\\Documents\\NetBeansProjects\\Voto Digital\\recursos\\editarcandidato (1).png")); // NOI18N
+        Escudo7.setPreferredSize(new java.awt.Dimension(50, 50));
+
+        VotosC.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        VotosC.setForeground(new java.awt.Color(34, 32, 86));
+        VotosC.setText("0");
+
+        VotosC1.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        VotosC1.setForeground(new java.awt.Color(34, 32, 86));
+        VotosC1.setText("0");
+
+        VotosC2.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        VotosC2.setForeground(new java.awt.Color(34, 32, 86));
+        VotosC2.setText("0");
+
+        VotosC3.setFont(new java.awt.Font("Segoe UI", 3, 24)); // NOI18N
+        VotosC3.setForeground(new java.awt.Color(34, 32, 86));
+        VotosC3.setText("0");
 
         javax.swing.GroupLayout TotalV3Layout = new javax.swing.GroupLayout(TotalV3);
         TotalV3.setLayout(TotalV3Layout);
         TotalV3Layout.setHorizontalGroup(
             TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TotalV3Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(743, Short.MAX_VALUE))
+                .addGroup(TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TotalV3Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(TotalV3Layout.createSequentialGroup()
+                        .addGroup(TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TotalV3Layout.createSequentialGroup()
+                                .addGap(156, 156, 156)
+                                .addComponent(Escudo3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(TotalV3Layout.createSequentialGroup()
+                                .addGap(190, 190, 190)
+                                .addComponent(VotosC, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TotalV3Layout.createSequentialGroup()
+                                .addGap(90, 90, 90)
+                                .addComponent(Escudo5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(90, 90, 90)
+                                .addComponent(Escudo6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(90, 90, 90)
+                                .addComponent(Escudo7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(TotalV3Layout.createSequentialGroup()
+                                .addGap(123, 123, 123)
+                                .addComponent(VotosC1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(135, 135, 135)
+                                .addComponent(VotosC2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(148, 148, 148)
+                                .addComponent(VotosC3, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(227, Short.MAX_VALUE))
         );
         TotalV3Layout.setVerticalGroup(
             TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TotalV3Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel5)
-                .addContainerGap(341, Short.MAX_VALUE))
+                .addGap(80, 80, 80)
+                .addGroup(TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Escudo3, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Escudo5, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Escudo6, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Escudo7, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TotalV3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(VotosC)
+                    .addComponent(VotosC1)
+                    .addComponent(VotosC2)
+                    .addComponent(VotosC3))
+                .addContainerGap(111, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -328,7 +401,7 @@ public class Administracion extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(153, 153, 153)
                                 .addComponent(TotalV3, javax.swing.GroupLayout.PREFERRED_SIZE, 1017, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 381, Short.MAX_VALUE)))
+                                .addGap(0, 376, Short.MAX_VALUE)))
                         .addContainerGap())
                     .addGroup(layout.createSequentialGroup()
                         .addGap(245, 245, 245)
@@ -445,13 +518,21 @@ public class Administracion extends javax.swing.JFrame {
     private javax.swing.JLabel Escudo;
     private javax.swing.JLabel Escudo1;
     private javax.swing.JLabel Escudo2;
+    private javax.swing.JLabel Escudo3;
     private javax.swing.JLabel Escudo4;
+    private javax.swing.JLabel Escudo5;
+    private javax.swing.JLabel Escudo6;
+    private javax.swing.JLabel Escudo7;
     private javax.swing.JLabel Logo;
     private javax.swing.JPanel TotalV;
     private javax.swing.JPanel TotalV1;
     private javax.swing.JPanel TotalV2;
     private javax.swing.JPanel TotalV3;
     private javax.swing.JLabel VotantesN;
+    private javax.swing.JLabel VotosC;
+    private javax.swing.JLabel VotosC1;
+    private javax.swing.JLabel VotosC2;
+    private javax.swing.JLabel VotosC3;
     private javax.swing.JLabel VotosN;
     private javax.swing.JButton btnIniciarV;
     private javax.swing.JButton btnSalirA;
